@@ -18,7 +18,7 @@ const snsClient = new SNSClient({ region: 'us-west-1' });
 // const s3Client = new S3Client({ region: 'us-west-1' }); // Replace with your AWS region
 // const rekognitionClient = new RekognitionClient({ region: 'us-west-1' }); // Replace with your AWS region
 // const bucketName = process.env.BUCKET_NAME || 'PhotoIdBucket'; // Replace with your S3 bucket name
-const chatGPTApiEndpoint = 'https://api.openai.com/v1/chat/completions'; // Example API endpoint
+const chatGPTApiEndpoint = 'https://api.openai.com/v1/chat/completions';
 
 export const handler = async (event: any) => {
   try {
